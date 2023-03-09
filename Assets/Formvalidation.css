@@ -4,16 +4,14 @@
     /* font-family: sans-serif; */
 }
 body{
-    background: url(https://media3.giphy.com/media/CGZGV8wix4lvJn3dxy/giphy.webp?cid=ecf05e47xqa6uktzi0edwwz2jnm8shk737i9ns6p3nn6zm4e&rid=giphy.webp&ct=g) center center repeat;
-
+background-image: url(bg.png) ;
 }
 .login{
     width: 420px;
     height: auto;
     border: 1px solid #ccc;
-    /* background: url(https://media4.giphy.com/media/hFhygTRHt4jvGQo52q/giphy.webp?cid=ecf05e47jujbxzn00nu4jl2bfjbngbkr8ce9l1b7tig8495z&rid=giphy.webp&ct=g) center center repeat-y; */
-    background-size: cover;
-    margin: 30px auto;
+    margin-left: 270px;
+    margin-top: 50px;
     border-radius: 20px;
 }
 .login .form{
@@ -24,10 +22,10 @@ body{
 .login .form h2{
     color: #fff;
     text-align: center;
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: monospace;
 }
 .login .form input{
     width: 100%;
@@ -47,6 +45,7 @@ body{
 }
 ::-webkit-input-placeholder{
     color: #ddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .login .form input.submit{
     background: rgba(255, 255, 255, .9);
@@ -60,7 +59,7 @@ body{
 }
 span{
     color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-small;
+    font-family: cursive;
+    font-size: 20px;
     font-style: italic;
 }
